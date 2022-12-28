@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    object-fit: cover;
+    object-fit: cover !important;
 }
 
 .background-1 {
@@ -196,51 +196,37 @@ CSS FOR MAIN HOMEPAGE ************************************
 
 
 .application-ipt-Applied {
-    color:rgb(39, 54, 49);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color:rgb(39, 54, 49);
 }
 
 .application-ipt-Rejected {
-    color: rgb(163, 72, 72);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(163, 72, 72);
 }
 
 .application-ipt-Online {
-    color: rgb(137, 172, 73);
+    background-color: rgb(137, 172, 73);
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .application-ipt-1st {
-    color: rgb(43, 82, 55);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(43, 82, 55);
 }
 
 .application-ipt-2nd {
-    color: rgb(55, 105, 70);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(55, 105, 70);
 }
 
 .application-ipt-3rd {
-    color: rgb(51, 97, 65);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(51, 97, 65);
 }
 
 .application-ipt-4th {
-    color: rgb(68, 129, 86);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(68, 129, 86);
 }
 
 .application-ipt-Given {
-    color: rgb(50, 155, 81);
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color: rgb(50, 155, 81);
 }
 
 

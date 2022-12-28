@@ -217,7 +217,11 @@
                             <td>
                                 <a href="{% url 'jobs:company-detail' application.company.pk %}" class="f-lg font-weight-bold text-info">{{application.company.name}}</a>
                             </td>
-                            <td class="application-ipt-{{application.stage}}">{{application.stage}}</td>
+                            <td>
+                                <div class="application-ipt-{{application.stage}} d-inline-block py-2 px-3 w-100 rounded text-center mx-auto f-lg">
+                                    {{application.stage}}
+                                </div>
+                            </td>
                             <td>{{application.date_applied}}</td>
                             <td class="dropdown" style="cursor: pointer;">
                                 <span class="dropdown-toggle" data-toggle="dropdown">
